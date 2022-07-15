@@ -10,10 +10,12 @@
     border-radius: 15px;
 }
 
+.buttonsContainerDiv{
+    padding-right: 6%;
+    width: fit-content;
+}
 .searchButton{
     float: right;
-    margin-right: 15px;
-    margin-top: 1px;
     height: 30px;
     width: 30px;
     border: none;
@@ -21,7 +23,6 @@
 }
 .voiceButton{
     float: right;
-    margin-top: 1px;
     height: 30px;
     width: 30px;
     border: none;
@@ -36,7 +37,7 @@ input, textarea {
     outline: 0;
     outline-offset: 0;
     height: 30px;
-    width: 85%;
+    width: max-content;
     }
 
 
