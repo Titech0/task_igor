@@ -6,21 +6,23 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
-        <header>
-            <h1 class="headerLogo">
+        <header class="headerLogo">
+            <h1>
                 Hapoogle
             </h1>
         </header>
-        <div class="searchBarDiv">
-            <input type="text" name="search" placeholder="Enter a request..." autofocus />
-            <div class = "buttonsContainerDiv">
-             <button type="button" class="searchButton" >
+        <div class="searchBar">
+            <input class = "textInput" name="search" placeholder="Enter a request..." autofocus />
+            
+            <div class = "buttonsContainer">
+                <button type="button" title="Search button" >
                  <img src="searchbutton.svg"/>
              </button>
             
-             <button type="button" class="voiceButton" >
+             <button type="button" title="Voice search button" >
                  <img src="voicesearchbutton.png"/>
              </button>
+           
             </div>
         </div>
     </body>
